@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Loan Department]" guice-stage="DEVELOPMENT">
+  <parameter name="URL" value="qaclick.com"/>
+  <listeners>
+    <listener class-name="testng1.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Car loan(failed)">
+    <classes>
+      <class name="testng1.day2">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+          <include name="beforeclass"/>
+          <include name="aftereclass"/>
+          <include name="MobileLogin2"/>
+        </methods>
+      </class> <!-- testng1.day2 -->
+    </classes>
+  </test> <!-- Car loan(failed) -->
+</suite> <!-- Failed suite [Loan Department] -->
